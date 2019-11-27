@@ -12,7 +12,7 @@ In the **/frontend** folder:
 
 This will serve this folder up in a local web server, which can be accessed from *localhost:8000*
 
-### 1. Python/Flask Backend:
+### 2. Python/Flask Backend:
 
 In the **/backend** folder:
 
@@ -54,11 +54,11 @@ This will populate the database will all the dog breeds, so that autocomplete wi
 
 ## Try it out
 
-- `localhost:8000/`— AngularJS app 
-- `localhost:5000/` — Backend
+- `localhost:8000/`: AngularJS app 
+- `localhost:5000/`: Backend
 
 ### Add any and all doggos:
-Now that both frontend and backend are running in their own local server, bavigate to 
+Now that both frontend and backend are running in their own local server, navigate to 
 
     `localhost:8000/`
 
