@@ -1,20 +1,18 @@
 # Dandy
 
-## Pre-Reqs (Before anything else)
-
-Make sure *python3* and *pip* is installed.
+** NOTE: Make sure *python3* and *pip* is installed.**
 
 ## Setup
 
-### AngularJS Frontend
+### AngularJS Frontend:
 
 In the **/frontend** folder:
 
-    `code` python -m http.server &
+    `python -m http.server &`
 
 This will serve this folder up in a local web server, which can be accessed from *localhost:8000*
 
-### Python/Flask Backend
+### Python/Flask Backend:
 
 In the **/backend** folder:
 
@@ -46,7 +44,7 @@ In the **/backend** folder:
 
 The backend should now be running at *localhost:5000*
 
-### Populate database
+### Populate database:
 
 In the web browser, go to:
 
@@ -58,7 +56,7 @@ This will populate the database will all the dog breeds, so that autocomplete wi
 
 ## Try it out
 
-### Add any and all doggos
+### Add any and all doggos:
 Navigate to 
 
     `localhost:8000/`
@@ -67,7 +65,7 @@ This should direct you to the first page of the dandy survey page, where it will
 
 Follow and use the app as directed :) Go ahead and add as many dogs as you'd like.
 
-### (Finally) Check database to verify
+### (Finally) Check database to verify:
 
 Navigate to 
 
