@@ -34,9 +34,9 @@ In the **/backend** folder:
 
 5. Initialize and migrate database
 
-    `flask db init'
-    'flask db migrate'
-    'flask db upgrade`
+    - `flask db init`
+    - `flask db migrate`
+    - `flask db upgrade`
 
 6. Run flask app
 
