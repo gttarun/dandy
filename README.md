@@ -1,6 +1,6 @@
 # Dandy
 
-** NOTE: Make sure *python3* and *pip* is installed.**
+**NOTE: Make sure *python3* and *pip* is installed.**
 
 ## Setup
 
@@ -34,9 +34,9 @@ In the **/backend** folder:
 
 5. Initialize and migrate database
 
-    `flask db init
-    flask db migrate
-    flask db upgrade`
+    `flask db init'
+    'flask db migrate'
+    'flask db upgrade`
 
 6. Run flask app
 
