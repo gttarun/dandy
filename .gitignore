@@ -1,5 +1,5 @@
 __pycache__
 *.pyc
-venv/*
-migrations/*
+backend/venv/*
+backend/migrations/*
 app.db
