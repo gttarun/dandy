@@ -12,7 +12,7 @@ def index():
 
 @app.route("/sync", methods=["GET"])
 def storeBreeds():
-    wb = xlrd.open_workbook("./breeds.xlsx")
+    wb = xlrd.open_workbook("./data/breeds.xlsx")
     sheet = wb.sheet_by_index(0)
     x, y = 1, 0
     while (sheet.cell(x, y).value != 'END'):
