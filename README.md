@@ -1,10 +1,10 @@
 # Dandy
 
-**NOTE: Make sure *python3* and *pip* is installed.**
+**NOTE**: Make sure *python3* and *pip3* is installed.
 
 ## Setup
 
-### AngularJS Frontend:
+### 1. AngularJS Frontend:
 
 In the **/frontend** folder:
 
@@ -12,7 +12,7 @@ In the **/frontend** folder:
 
 This will serve this folder up in a local web server, which can be accessed from *localhost:8000*
 
-### Python/Flask Backend:
+### 1. Python/Flask Backend:
 
 In the **/backend** folder:
 
@@ -44,7 +44,7 @@ In the **/backend** folder:
 
 The backend should now be running at *localhost:5000*
 
-### Populate database:
+### 3. Populate database:
 
 In the web browser, go to:
 
@@ -52,12 +52,13 @@ In the web browser, go to:
 
 This will populate the database will all the dog breeds, so that autocomplete will work as the user fills out the survey— the response should be **SUCCESS**
 
-**Warning: only populate the database ONCE**
-
 ## Try it out
 
+- `localhost:8000/`— AngularJS app 
+- `localhost:5000/` — Backend
+
 ### Add any and all doggos:
-Navigate to 
+Now that both frontend and backend are running in their own local server, bavigate to 
 
     `localhost:8000/`
 
