@@ -1,0 +1,27 @@
+<div class="select-breed">
+    <div class="question">
+        <h2>She is</h2>
+    </div>
+    <div class="subheader">
+        <h4></h4>
+    </div>
+    <div class="input-box">
+        <form ng-submit="submitToDatabaseA()">
+           <div class="radios">
+               <p class="good-girl">
+                    <input type="radio" id="true" class="radio" ng-model="spayed" value="true">
+                    <label for="true">Spayed</label>
+                </p>
+                <p class="good-boy">
+                    <input type="radio" id="false" class="radio" ng-model="spayed" value="false">
+                    <label for="false">Not spayed</label>
+                </p>
+           </div>
+            <div class="background">
+                <div class="input-button" >
+                    <button type="submit" class="block" ng-show="addb">Next</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>

@@ -1,0 +1,27 @@
+<div class="select-breed">
+    <div class="question">
+        <h2>What is {{ dog }}'s gender?</h2>
+    </div>
+    <div class="subheader">
+        <h4></h4>
+    </div>
+    <div class="input-box">
+        <form ng-submit="addgender()">
+           <div class="radios">
+               <p class="good-girl">
+                    <input type="radio" id="female" class="radio" ng-model="gender" value="female">
+                    <label for="female">Good Girl</label>
+                </p>
+                <p class="good-boy">
+                    <input type="radio" id="male" class="radio" ng-model="gender" value="male">
+                    <label for="male">Good Boy</label>
+                </p>
+           </div>
+            <div class="background">
+                <div class="input-button" >
+                    <button type="submit" class="block" ng-show="addb">Next</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>

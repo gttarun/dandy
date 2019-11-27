@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html ng-app="dandyApp" lang="en" dir="ltr">
+    <!-- NOTE: Assume all is good in head -->
+    <head>
+        <base href="/" />
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <script src="app/lib/angular.min.js"></script>
+        <script src="app/lib/angular-route.min.js"></script>
+		<script src="app/app.js"></script>
+        <script src="https://kit.fontawesome.com/8beeb8068d.js" crossorigin="anonymous"></script>
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+       <link rel="stylesheet" href="/content/css/reset.css">
+        <link rel="stylesheet" href="content/css/style.css"/>
+        <link rel="stylesheet" href="content/css/fonts.css">
+        <title>Survey — Breed | Dandy</title>
+    </head>
+
+    <body>
+        <!-- NOTE: navigation bar -->
+        <div class="top-nav">
+            <div class="dandy"><h1>Dandy</h1></div>
+            <div class="nav-top">
+                <a href="#" class="shop"><i class="fas fa-shopping-bag"></i></a>
+                <a href="#" class="profile"><i class="far fa-user"></i></a>
+            </div>
+        </div>
+
+        <!-- NOTE: Everything in the coral box -->
+        <div class="orange-box">
+            <div class="main-content" ng-controller="DandyController">
+
+                <div class="dog">
+                    <img src="/images/dandy-dog.png" alt="dandy dog">
+                </div>
+
+<!--            <div ng-include src="'views/select_breed.html'"></div>-->
+            <main ng-view></main>
+
+
+            </div>
+        </div>
+
+    </body>
+
+</html>

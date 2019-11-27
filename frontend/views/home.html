@@ -1,0 +1,21 @@
+<div class="select-breed">
+    <div class="question">
+        <h2>What is your dog name?</h2>
+    </div>
+    <div class="subheader">
+        <h4>More than one dog? Good! We'll add the rest of the pack at the end.</h4>
+    </div>
+    <div class="input-box">
+        <form ng-submit="setName()">
+            <span class="input-box">
+                <input type="text" class="input-box input-line" ng-model="dogname">
+                
+            </span> 
+            <div class="background">
+                <div class="input-button" >
+                    <button type="submit" class="block" ng-show="addb">Next</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>

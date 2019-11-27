@@ -1,0 +1,375 @@
+@import url("fonts.css"); 
+@import url("colors.css"); 
+
+/* Page Title & Navigation */
+
+.top-nav {
+    max-width: 1161px;
+    height: 124px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.dandy {
+    width: 50%;
+    margin: 0 auto;
+    display: block;
+    padding-top: 30px;
+}
+
+.nav-top {
+    color: #0c2b69;
+    display: block;
+    float: right;
+}
+
+.profile {
+    margin-left: 82px;
+}
+
+.dandy h1 {
+    font-family: Apercu-Bold;
+    font-weight: bold;
+    font-stretch: normal;
+    letter-spacing: -1.8px;
+    font-size: 65px;
+    color: #f16751;
+}
+
+.fa {
+    color: #0c2b69 !important;
+}
+
+/* Main content in the box */
+
+.orange-box {
+    max-width: 1161px;
+    height: 721px;
+    z-index: 2;
+    background-color: #ff5c48;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    margin: 0 auto;
+}
+
+.main-content {
+    z-index: 1;
+    max-width: 1161px;
+    height: 721px;
+    border: solid 2px #ff5c48;
+    margin: 0 auto;
+    background-color: white;
+}
+
+.dog {
+    padding-top: 35px;
+    max-width: 100px;
+    margin: 20px auto;
+    margin-top: 25px;
+    text-align: center;
+}
+
+.select-breed {
+    
+}
+
+.bottom-navigation {
+    
+}
+
+
+/* MAINTEXT/SUBHEADER */
+
+.question {
+    max-width: 600px;
+    margin: 0 auto;
+    height: 150px;
+    text-align: center;
+    
+}
+
+.question h2 {
+    font-family: Apercu;
+    font-size: 36px;
+    font-stretch: ultra-expanded;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 1.19em;
+    letter-spacing: 1.2px;
+    color: #0c2b69;
+    padding-top: 42px;
+    padding-bottom: 10px;
+}
+
+.subheader {
+    height: 40px;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    
+}
+
+.subheader h4 {
+    font-family: Apercu;
+    font-size: 14px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.43;
+    letter-spacing: 0.35px;
+    color: #0c2b69;
+}
+
+/* INPUT */
+
+.input-box {
+    max-width: 380px;
+    height: 50px;
+    text-align: left;
+	font-family: Apercu-Mono;
+    margin: 0px auto;
+	border: 0;
+}
+
+.input-line {
+    border-bottom: 2px solid coral;
+    width: 100%;
+}
+
+.filter-option {
+    border: 2px solid coral;
+    position: relative;
+    height: 310px;
+}
+
+.autocomplete {
+    background: white;
+    color: #0c2b69;
+    border-bottom: 1px solid lightgrey;
+    width: 90%;
+}
+
+.each {
+    width: 360px;
+    margin: 0 auto;
+    font-family: Apercu;
+    padding-top: 17px;
+    letter-spacing: 0.4px;
+    font-size: 16px;
+    z-index: 10;
+}
+
+.autocomplete:hover {
+    cursor: pointer;
+}
+
+/* ADD BREED */
+
+.yellowbox {
+    width: 330px;
+    height: 77px;
+    border: solid 1px #ffdd6d;
+    background-color: #f8f7ea;
+    text-align: center;
+    margin: 10px auto;
+}
+
+.yellowbox p {
+    padding: 10px 5px;
+    font-family: Apercu;
+    font-size: 15px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.67;
+    letter-spacing: 0.38px;
+    text-align: center;
+    color: #0c2b69;
+}
+
+.add-breed-div {
+    width:  380;
+    text-align: left;
+}
+
+.add-breed {
+    padding: 30px 10px;
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+}
+
+span {
+    font-family: Apercu-Mono;
+    font-size: 14px;
+    font-weight: 200;
+    letter-spacing: 1px;
+    color: #0c2b69;
+    margin-left: 9px;
+}
+
+/* NEXT*/
+
+.background {
+    max-width: 1440px;
+    height: 150px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.input-button {
+    max-width: 380px;
+    height: 54px;
+    padding-top: 75px;
+    margin: 0 auto;
+    text-align: center;
+	font-family: Apercu-Mono;
+	border: 0;
+    position: relative;
+}
+
+.block {
+    display: block;
+    width: 100%;
+    border: none;
+    background-color: #ff5c48;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+    color: white;
+    font-family: Apercu-Mono;
+    font-size: 24px;
+    font-weight: 100;
+}
+
+.input-button-dup {
+    max-width: 1px;
+    height: 1px;
+    margin: 0 auto;
+    text-align: center;
+	font-family: Apercu-Mono;
+	border: 0;
+    position: relative;
+}
+
+.nextdup {
+    display: block;
+    width: 100%;
+    border: none;
+    background-color: #ff5c48;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+    color: white;
+    font-family: Apercu-Mono;
+    font-size: 24px;
+    font-weight: 100;
+}
+
+/* BOTTOM NAV */
+
+.bottom-nav {
+    max-width: 100px;
+    margin: 100px 30px;;
+    text-align: center;
+	font-family: Apercu-Mono;
+	border: 0;
+    float: left;
+    display: block;
+}
+
+.bottom-nav a {
+    text-decoration: none;
+    width: 35px;
+    height: 26px;
+    font-family: Apercu-Mono;
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2.17;
+    letter-spacing: 1.2px;
+    color: #ff5c48;
+    margin-left: 9px;
+}
+
+.bottom-nav2 {
+    max-width: 500px;
+    margin: 100px 325px;
+    text-align: center;
+	font-family: Apercu-Mono;
+	border: 0;
+    display: block;
+}
+
+.bottom-nav2 a {
+    text-decoration: none;
+    width: 35px;
+    height: 26px;
+    font-family: Apercu-Mono;
+    font-size: 12px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2.17;
+    letter-spacing: 1.2px;
+    color: coral;
+    margin-left: 9px;
+}
+
+.bottom-nav2 img {
+    margin-left: 9px;
+}
+
+/* RADIO */
+
+:focus{
+  outline:none;
+}
+
+.input-box p {
+    float: left;
+    margin: 0 auto; 
+    text-align: center;
+}
+
+.input-box label {
+    display: block;
+    padding-top: 10px;
+}
+
+.good-girl {
+    max-width: 300px;
+    margin: 0 auto;
+    padding-right: 175px;
+}
+
+.good-boy {
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+.radios {
+    padding-bottom: 75px;
+}
+
+.radio{
+  -webkit-appearance:button;
+  -moz-appearance:button;
+  appearance:button;
+  border:6px solid coral;
+  border-top-color: coral;
+  border-left-color: coral;
+  background:#fff;
+  width:60px;
+  height:60px;
+  border-radius:50%;
+}
+.radio:checked{
+  border:20px solid #0c2b69;
+}

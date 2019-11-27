@@ -1,0 +1,64 @@
+<div>
+    <div class="select-breed">
+        <div class="question">
+            <h2>What breed is {{ dogName }}?</h2>
+        </div>
+
+        <div class="subheader">
+            <h4>If you're not sure, just select uknown (the love's the same).</h4>
+        </div>
+
+        <div class="addbreedpadding">
+            <div class="input-box">
+                <form ng-submit="addbr()">
+                    <span class="input-box" ng-repeat="added in inputFields">
+
+                        <input autocomplete="off" type="text" name="added.breed" placeholder="Select Breed" class="input-box input-line" value="added.breed" ng-model="added.breed" ng-keyup="filterItems(added.breed)">
+                         
+                         <input class="input-box input-line" autocomplete="off" type="text" ng-model="other" ng-show="only">
+
+                         <div class="filter-option" ng-show="added.isVisible.suggestions">
+                             <div class="input-box autocomplete" ng-repeat="item in filteredChoices | limitTo: 6" ng-click="selectItem(added.breed, item)"><div class="each">{{item.breed}}</div></div>
+                             <div class="yellowbox" ng-show="notfound">
+                            <p>No results found. Please press enter to add your own breed or select multiple breeds.</p>
+                        </div>
+                        </div>
+                    </span>
+                    
+                    <div class="input-button-dup" >
+                    <button type="submit" class="nextdup" ng-show=false ng-click="actualnext=true">Next</button>
+                </div>
+                    
+                    <div class="add-breed-div input-box" ng-hide="hide">
+                        <button class="add-breed" ng-click="addBreed()" ng-show="addb">
+                            <i class="material-icons">add_circle_outline</i><span>ADD BREED</span>
+                        </button>
+                    </div>            
+
+                    <div class="input-button" >
+                    <button type="submit" class="block" ng-show="addb" ng-click="actualnext=true">Next</button>
+                </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- Active space -->
+    <div class="bottom-navigation">
+        <div class="background">
+            
+        </div>
+
+        <div class="bottom-nav" ng-show="addb">
+           <img src="/images/back.png" alt="back-arrow">
+            <a href="#">BACK</a>
+        </div>
+        <div class="bottom-nav2" ng-show="addb">
+            <a href="#">HUMAN PROFILE</a>
+            <img src="/images/forward.png" alt="forward-arrow">
+            <a href="#">PET HEALTH</a>
+            <img src="/images/forward.png" alt="forward-arrow">
+            <a href="#">DANDY RX</a>
+        </div>
+    </div>
+</div>
